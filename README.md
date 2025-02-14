@@ -87,10 +87,8 @@
             document.getElementById("carta-animada").style.display = "none";
             document.getElementById("mensaje").style.display = "none";
             document.getElementById("puzzle-container").style.display = "grid";
-            
             // Iniciar música
             document.getElementById("musica-romantica").play();
-
             let puzzleContainer = document.getElementById("puzzle-container");
             puzzleContainer.innerHTML = ""; // Limpiar antes de crear
             let filas = 3;
@@ -114,7 +112,6 @@
                 let mensajeFinal = document.getElementById("mensaje-final");
                 mensajeFinal.style.display = "block";
                 mensajeFinal.style.opacity = "1";
-                
                 // Mostrar GIFs alrededor del rompecabezas y mensaje
                 document.getElementById("gif1").style.cssText = "display:block; top: 5%; left: 5%;";
                 document.getElementById("gif2").style.cssText = "display:block; top: 5%; right: 5%;";
